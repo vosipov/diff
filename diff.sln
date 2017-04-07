@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diff", "diff\diff.csproj", "{9F92B3EE-167C-4113-988D-BD9A757F5D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diff.Tests", "diff.Tests\diff.Tests.csproj", "{C724B858-20E3-4D4E-BDBE-289F1E3293BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diff.Integration.Tests", "diff.Integration.Tests\diff.Integration.Tests.csproj", "{A29BDC29-5E5D-4CA9-8271-62F8ADB8A9CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F92B3EE-167C-4113-988D-BD9A757F5D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F92B3EE-167C-4113-988D-BD9A757F5D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F92B3EE-167C-4113-988D-BD9A757F5D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F92B3EE-167C-4113-988D-BD9A757F5D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C724B858-20E3-4D4E-BDBE-289F1E3293BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C724B858-20E3-4D4E-BDBE-289F1E3293BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C724B858-20E3-4D4E-BDBE-289F1E3293BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C724B858-20E3-4D4E-BDBE-289F1E3293BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29BDC29-5E5D-4CA9-8271-62F8ADB8A9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29BDC29-5E5D-4CA9-8271-62F8ADB8A9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29BDC29-5E5D-4CA9-8271-62F8ADB8A9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29BDC29-5E5D-4CA9-8271-62F8ADB8A9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
