@@ -1,10 +1,10 @@
 ﻿namespace diff
 {
     /// <summary>
-    /// Simple configuration class to respect dependency injection without abusing container frameworks.
+    /// Simple configuration class, stub for dependency injection
     /// First time we face different implementation requirement we have to rewrite this using dependency injection container
     /// </summary>
-    public static class Factory
+    public static class Container
     {
         public static IDiffObjectRepository DiffObjectRepository = new DiffObjectRepository();
 

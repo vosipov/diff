@@ -35,7 +35,7 @@ namespace diff.Integration.Tests
         public  async Task DiffRequestBeforeLeftAndRightWereSetReturnsNotFoundTest()
         {
             //reset storage
-            Factory.DiffObjectRepository.Clear();
+            Container.DiffObjectRepository.Clear();
 
             int id = 0;
 
@@ -51,7 +51,7 @@ namespace diff.Integration.Tests
         public async Task DiffRequestOnlyLeftSetReturnsNotFoundTest()
         {
             //reset storage
-            Factory.DiffObjectRepository.Clear();
+            Container.DiffObjectRepository.Clear();
 
             int id = 0;
             HttpResponseMessage httpResponseMessage;
@@ -72,7 +72,7 @@ namespace diff.Integration.Tests
         public async Task DiffRequestOnlyRightSetReturnsNotFoundTest()
         {
             //reset storage
-            Factory.DiffObjectRepository.Clear();
+            Container.DiffObjectRepository.Clear();
 
             int id = 0;
 

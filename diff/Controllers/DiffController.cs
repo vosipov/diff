@@ -16,8 +16,8 @@ namespace diff
         public DiffController()
         {
             //configuring controller with repository and diff algorithm implementations
-            _diffObjectRepository = Factory.DiffObjectRepository;
-            _differ = Factory.Differ;
+            _diffObjectRepository = Container.DiffObjectRepository;
+            _differ = Container.Differ;
         }
 
         [HttpGet]
