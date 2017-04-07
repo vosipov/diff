@@ -6,7 +6,9 @@ diff.Integration.Tests - integration tests, MSTest
 diff.Tests - unit tests, MSTest
 
 How to use
+clone https://github.com/vosipov/diff
 Open solution in Visual Studio 2017 and build
+Goto diff project properties -> web -> Set start action to [Don't open a page]
 Hit F5, IIS Express will start service, copy service url from IIS Express
 Use your preffered tool to test API, I was using Postman
 Run Integration tests
